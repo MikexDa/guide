@@ -303,7 +303,7 @@ await interaction.reply('Pong!');
 await interaction.deleteReply();
 ```
 
-Por último, es posible que necesite el objeto `Message` de una respuesta por varias razones, como agregar reacciones. Puede usar el método `CommandInteraction#fetchReply()` para obtener la instancia de `Message` de una respuesta inicial:
+Por último, es posible que necesite el objeto `Message` de una respuesta por varias razones, como agregar reacciones. Puede usar el método `CommandInteraction#fetchReply()` para obtener la instancia de `Message` de una respuesta inicial: hola
 
 <!-- eslint-skip -->
 
